@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace XMLSerialize
 {
-    [Serializable, XmlRoot (ElementName="Stores",IsNullable=true)]
+    [Serializable, XmlRoot (ElementName="StoreSurveys",IsNullable=true)]
     public class StoreSurvey
     {        
         [XmlElement("AnnualSales")]        
@@ -41,4 +41,6 @@ namespace XMLSerialize
         [XmlElement("NumberOfEmployees")]
         public int NumberOfEmployees { get; set; }
     }
+
+  
 }

@@ -4,3 +4,9 @@ E:\GitProjects\XMLSerialize\XMLSerialize\bin\Debug\XMLSerialize.pdb
 E:\GitProjects\XMLSerialize\XMLSerialize\obj\Debug\XMLSerialize.csprojResolveAssemblyReference.cache
 E:\GitProjects\XMLSerialize\XMLSerialize\obj\Debug\XMLSerialize.exe
 E:\GitProjects\XMLSerialize\XMLSerialize\obj\Debug\XMLSerialize.pdb
+E:\GitProjects\XML-Root-Attribute-Test\XMLSerialize\bin\Debug\XMLSerialize.exe.config
+E:\GitProjects\XML-Root-Attribute-Test\XMLSerialize\obj\Debug\XMLSerialize.exe
+E:\GitProjects\XML-Root-Attribute-Test\XMLSerialize\obj\Debug\XMLSerialize.pdb
+E:\GitProjects\XML-Root-Attribute-Test\XMLSerialize\bin\Debug\XMLSerialize.exe
+E:\GitProjects\XML-Root-Attribute-Test\XMLSerialize\bin\Debug\XMLSerialize.pdb
+E:\GitProjects\XML-Root-Attribute-Test\XMLSerialize\obj\Debug\XMLSerialize.csprojResolveAssemblyReference.cache

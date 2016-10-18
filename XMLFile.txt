@@ -1,4 +1,4 @@
-<Stores>
+<StoreSurveys>
 <StoreSurvey>
 <AnnualSales>800000</AnnualSales>
 <AnnualRevenue>80000</AnnualRevenue>
@@ -23,4 +23,4 @@
 <Internet>ISDN</Internet>
 <NumberEmployees>13</NumberEmployees>
 </StoreSurvey>
-</Stores>
+</StoreSurveys>

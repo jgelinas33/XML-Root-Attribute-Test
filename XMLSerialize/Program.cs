@@ -15,19 +15,21 @@ namespace XMLSerialize
         {
 
             XmlRootAttribute theRoot = new XmlRootAttribute();
-            theRoot.ElementName = "Stores";
+            theRoot.ElementName = "StoreSurveys";
             theRoot.IsNullable = true;
 
             // even though the StoreSurvey class is decorated with the xmlroot attribute, seems the only
             // way this will work is if the xmlroot attribute is added directly to the serializer
-            var serializer = new XmlSerializer(typeof(List<StoreSurvey>),theRoot);
+            var serializer = new XmlSerializer(typeof(List<StoreSurvey>));
 
-            using (FileStream stream = File.OpenRead("E:\\GitProjects\\XMLSerialize\\XMLFile.txt"))
+            using (FileStream stream = File.OpenRead("E:\\GitProjects\\XML-Root-Attribute-Test\\XMLFile.txt"))
             {
-                 List<StoreSurvey> storeSurvey = (List<StoreSurvey>)serializer.Deserialize(stream);
+                List<StoreSurvey> storeSurvey = (List<StoreSurvey>)serializer.Deserialize(stream);
             }
-            
+
         }
+
+       
     }
 }
 
